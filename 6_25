@@ -6,3 +6,5 @@ nmapをインストール
 https://support.hpe.com/hpesc/public/docDisplay?docId=c02563753&docLocale=en_US
 
 ポートミラーはできるがIPアドレスがわからない
+
+今の知識ではwiresharkで見つけたIPアドレスに対して、手当たりしだいにスキャンをかけることしかできない
