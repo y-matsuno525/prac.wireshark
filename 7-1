@@ -1,0 +1,8 @@
+シェルスクリプトからの総当り
+#!/bin/bash
+for i in {0..155}
+do
+        ad="192.~.${i}"
+        echo "${ad}をスキャン中"
+        timeout 60 nmap -Pn $ad
+done
