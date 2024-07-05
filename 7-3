@@ -1,0 +1,5 @@
+ghidraとgdbのアドレス比較
+https://ameblo.jp/reverse-eg-mal-memo/entry-12565380848.html
+
+info proc mappings
+gdbのベースアドレス確認

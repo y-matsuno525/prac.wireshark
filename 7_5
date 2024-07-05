@@ -1,0 +1,14 @@
+#!/bin/bash
+
+filename="scan_results_$(date '+%Y-%m-%d_%H-%M-%S').txt"
+
+echo "スキャン結果 - $(date)" > $filename
+echo "=========================" >> $filename
+
+
+for i in {0..10}
+do
+	ad="192.~.${i}"
+	echo "${ad}をスキャン中"
+	timeout 60 nmap -Pn "$ad" >> $filename
+done
